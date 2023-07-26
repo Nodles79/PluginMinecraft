@@ -1,0 +1,19 @@
+git config --global user.email "cubumvt@icloud.com"
+git config --global user.name "PhanAnhKhoa"
+--------------
+git init // day la cau lenh khoi tao git
+
+--- lan dau :
+echo "# PluginMinecraft" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Nodles79/PluginMinecraft.git
+git push -u origin main
+
+------------ dung khi project thay doi
+
+git add . // day la cau lenh kiem tra su thay doi trong code
+git commit -m "ghi chu"
+git push origin master // cau lenh day code len git
